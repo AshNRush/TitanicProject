@@ -1,4 +1,4 @@
-# TitanicProject
+﻿# TitanicProject
 Учебный проект по курсу Java, вариант 3
 
 # Ход работы
@@ -8,11 +8,20 @@
 3) Создал БД в SQLite, создал в ней таблицу Passengers с соответствующими столбцами (соответствующими третьей нормальной форме, побочные зависимости в таблице отсутствуют), подключил её к проекту с помощью библиотеки sqlite-jdbc-3.36.0.3 (jar-файл находится в репозитории)
 4) Создал класс **DBHandler** для взаимодействий с БД, с его помощью заполнил БД данными, полученными из парсера
 5) Создал класс **TaskHandler**, взаимодействующий с DBHandler'ом для выполнения заданий
+
+
+
 **Задание 1**
 ![image](https://user-images.githubusercontent.com/72685173/144834152-08123b24-64bf-4414-aa5c-fa9b18aba7ed.png)
 ![image](https://user-images.githubusercontent.com/72685173/144833761-06a7b038-1b27-4022-89a9-83fdd7931e60.png)
+
+
+
 **Задание 2**
 ![image](https://user-images.githubusercontent.com/72685173/144833802-e3117593-a502-4f66-8570-98213094e139.png)
+
+
+
 **Задание 3**
 ![image](https://user-images.githubusercontent.com/72685173/144833855-15c8a3e4-8dfa-4392-b416-0ea386de8af1.png)
 ![image](https://user-images.githubusercontent.com/72685173/144833867-0fd33124-3b21-44a6-b239-df3478b3b29f.png)
