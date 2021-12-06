@@ -5,7 +5,7 @@ import java.util.*;
 
 public class DBHandler {
 
-    private static final String CON_STR = "jdbc:sqlite:E:\\TitanicProject\\titanic.s3db";
+    private static final String CON_STR = "jdbc:sqlite:titanic.s3db";
     private static DBHandler instance = null;
 
     public static synchronized DBHandler getInstance() throws SQLException {

@@ -7,11 +7,11 @@ public class main {
         try {
             var dbHandler = DBHandler.getInstance();
             var taskHandler = new TaskHandler();
-            //dbHandler.fillDB(Parser.getPassengersFromCSV());
+            dbHandler.fillDB(Parser.getPassengersFromCSV());
             taskHandler.createBarChart(dbHandler);
-            //taskHandler.printDelta(dbHandler);
-            //taskHandler.printAllTickets(dbHandler);
-        } catch (SQLException throwables) {
+            taskHandler.printDelta(dbHandler);
+            taskHandler.printAllTickets(dbHandler);
+        } catch (SQLException | IOException throwables) {
             throwables.printStackTrace();
         }
     }
