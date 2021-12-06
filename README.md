@@ -9,7 +9,7 @@
 4) Создал класс **DBHandler** для взаимодействий с БД, с его помощью заполнил БД данными, полученными из парсера
 5) Создал класс **TaskHandler**, взаимодействующий с DBHandler'ом для выполнения заданий
 **Задание 1**
-![image](https://user-images.githubusercontent.com/72685173/144833744-7f403ad9-8ed3-4b4a-a8b7-e3a17dfb83cd.png)
+![image](https://user-images.githubusercontent.com/72685173/144834152-08123b24-64bf-4414-aa5c-fa9b18aba7ed.png)
 ![image](https://user-images.githubusercontent.com/72685173/144833761-06a7b038-1b27-4022-89a9-83fdd7931e60.png)
 **Задание 2**
 ![image](https://user-images.githubusercontent.com/72685173/144833802-e3117593-a502-4f66-8570-98213094e139.png)
