@@ -13,7 +13,7 @@ public class Parser {
         var passengerArray = new ArrayList<Passenger>();
         var headerFlag = true;
         List<String[]> r = null;
-        try (var reader = new CSVReader(new FileReader("E:\\TitanicProject\\titanicPassengers.csv"))){
+        try (var reader = new CSVReader(new FileReader("titanicPassengers.csv"))){
             r = reader.readAll();
         } catch (CsvException e) {
             e.printStackTrace();
